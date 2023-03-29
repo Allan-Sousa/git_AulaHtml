@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Site</title>
+    <link href="estilo.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/imgs/icons8-falcão-16.png" type="image/x-icon">
+</head>
+
+<body>
+    <center>
+
+        <header>
+            <b>
+                <h1>Passe o seu cartão de crédito</h1>
+            </b>
+            <nav>
+                <a href="QuemSouEu.html">| Quem sou eu? |</a>
+                <a href="MusicasTOP10.html">TOP 10 Músicas |</a>
+                <a href="FilmesFavoritos.html">Filmes Favoritos |</a>
+                <a href="SeriesFavoritas.html">Séries Favoritas |</a>
+                <a href="Form.html">Me dê dinheiros |</a>
+            </nav>
+        </header>
+
+        <br><br>
+        <main>
+            <form method="post" action="mailto:sousa.allan.aa@gmail.com">
+                <label for="nome">Nome no cartão<span style="color: red;">*</span>:</label>
+                <input type="text" id="nome" required placeholder="Ex: JOÃO A DE SOUZA">
+                <label for="numero">Número do cartão<span style="color: red;">*</span>:</label>
+                <input type="text" id="numero" required placeholder="Ex: 5379 **** **** 9883">
+                <br><br>
+                <label for="cvv">Código de segurança<span style="color: red;">*</span>:</label>
+                <input type="text" id="cvv" size="59" required placeholder="Ex: 108">
+                <br>
+                <b>
+                    <p>Bandeira</p>
+                </b>
+                <input type="radio" name="Band" id="flag">
+                <label for="flag">Mastercard</label>
+                <input type="radio" name="Band" id="visa">
+                <label for="visa">Visa</label>
+                <input type="radio" name="Band" id="elo">
+                <label for="elo">Elo</label>
+                <input type="radio" name="Band" id="AE">
+                <label for="AE">American Express</label>
+                <br><br>
+                <b>
+                    <p>Data de Validade</p>
+                </b>
+                <select name="Mvld" id="Mvld">
+                    <option selected disabled>Selecione o Mês</option>
+                    <option value="m01">01</option>
+                    <option value="m02">02</option>
+                    <option value="m03">03</option>
+                    <option value="m04">04</option>
+                    <option value="m05">05</option>
+                    <option value="m06">06</option>
+                    <option value="m07">07</option>
+                    <option value="m08">08</option>
+                    <option value="m09">09</option>
+                    <option value="m10">10</option>
+                    <option value="m11">11</option>
+                    <option value="m12">12</option>
+                </select>
+                <select name="Avld" id="Avld">
+                    <option selected disabled>Selecione o Ano</option>
+                    <option value="a2024">2024</option>
+                    <option value="a2025">2025</option>
+                    <option value="a2026">2026</option>
+                    <option value="a2027">2027</option>
+                    <option value="a2028">2028</option>
+                    <option value="a2029">2029</option>
+                    <option value="a2030">2030</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </main>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <footer>
+            <center>
+                <small> Todos os direitos reservados &reg; | <a href="mailto:sousa.allan.aa@gmail.com"
+                        style="color: red">Contato</a> </small>
+            </center>
+        </footer>
+</body>
+
+</html>

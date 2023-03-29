@@ -1,0 +1,5 @@
+Cntl + ; = COMENTARIO
+Alt + Shift + F = Organiza o código
+&#160; = Espaço em branco
+Ctrl + Space = Abrir sugestões
+<hr> = Linha horizontal
